@@ -1,0 +1,105 @@
+
+  @media (min-width: 320px) {
+    
+  }
+  
+  @media (max-width : 410px){
+      .row.intensive>*{
+        width: 100%;
+      }
+      #table_parik section>*{
+          width: 100%;
+      }
+      
+      #type_parik .price,  #type_parik .lu-btn{
+        width: 100%;
+      }
+      
+     .table_parik .price-bottom .row>*{
+        width: 100%;
+     }
+  }
+  
+    @media (max-width : 500px){
+        footer.lu-site-footer>.container>.row>*{
+            width: 100%;
+        }
+  }
+  
+  @media (max-width: 750px) {
+      footer.lu-site-footer form{
+        max-width: 450px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    #video_youtube iframe {
+        padding: 0;
+        margin-top: 0;
+        border: none;
+        border-radius: 0;
+    }
+  }
+  
+  
+@media (max-width: 767px){
+     .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus, .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+        color: #ff2392;
+     }
+     
+     .table_parik .container_img{
+         position: relative;
+         padding-top: auto;
+         
+     }
+     
+     .table_parik .price-bottom{
+        position: relative;
+     }
+     
+     li.header-soc{
+         display: inline-block !important;
+     }
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+        color: #ffb0d8;
+    }
+    li.header-soc i {
+        font-size: 2em;
+    }
+    
+    .text-xs-center{
+        text-align: center !important ;
+    }
+
+    .text-xs-left{
+        text-align: center !important ;
+    }
+
+    .lu-site-header{
+        background: none;
+        position: relative;
+        overflow: hidden;
+    }
+    .lu-site-header:before{
+        content: "";
+        position: absolute;
+        width: 110%;
+        height: 110%;
+        top: -25px;
+        background-image: url(/img/bg/agency_header1.jpg);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        filter: blur(15px);
+    }
+}
+     
+  @media (min-width: 970px) {
+    
+  }
+  
+  @media (min-width: 1170px) {
+    
+  }
